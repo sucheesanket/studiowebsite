@@ -96,13 +96,13 @@ html, body {
 .view2 h3 {
   text-transform: uppercase;
   row-gap: 1rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: rgba(255, 255, 255, 0.758);
   font-weight: 200;
   padding-top: 0.5rem;
 }
 .view2 p {
-  font-size: 2.8rem;
+  font-size: 2rem;
   padding-top: 0.5rem;
 }
 
