@@ -96,13 +96,13 @@ html, body {
 .view2 h3 {
   text-transform: uppercase;
   row-gap: 1rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.758);
   font-weight: 200;
   padding-top: 0.5rem;
 }
 .view2 p {
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   padding-top: 0.5rem;
 }
 
@@ -139,10 +139,11 @@ html, body {
 }
 .view3 .bottom1 .bottomtxt p {
   width: 100%;
-  font-size: 1.4rem;
-  font-weight: 300;
+  font-size: 1.3rem;
+  font-weight: 100;
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.482);
+  margin-bottom: 1.5rem;
 }
 .view3 .bottom1 > p {
   font-size: 0.9rem;
@@ -187,10 +188,11 @@ html, body {
   width: 100%;
   padding: 0 2rem;
   text-align: start;
-  font-size: 1.4rem;
-  font-weight: 300;
+  font-size: 1.3rem;
+  font-weight: 100;
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.482);
+  margin-bottom: 1.5rem;
 }
 .view4 .bottom2 > p {
   font-size: 0.9rem;
@@ -236,7 +238,7 @@ html, body {
   gap: 1rem;
   position: absolute;
   top: 1rem;
-  right: 1rem;
+  right: 0.7rem;
   padding: 2rem;
 }
 .view6 .tuff .social i {
@@ -288,7 +290,7 @@ html, body {
   gap: 1rem;
   position: absolute;
   top: 1rem;
-  right: 1rem;
+  right: 0.7rem;
   padding: 2rem;
 }
 .view6 .midle .social i {
@@ -340,7 +342,7 @@ html, body {
   gap: 1rem;
   position: absolute;
   top: 1rem;
-  right: 1rem;
+  right: 0.7rem;
   padding: 2rem;
 }
 .view6 .buutum .social i {
@@ -443,6 +445,9 @@ html, body {
   border-radius: 0.5rem;
   color: #fff;
   background-color: #121212;
+  outline: none;
+  box-shadow: none;
+  border: none;
 }
 
 .view9 {
