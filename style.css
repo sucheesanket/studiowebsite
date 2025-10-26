@@ -1,0 +1,563 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+.view1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  min-height: 100vh;
+}
+.view1 .top {
+  width: 100%;
+}
+.view1 .top img {
+  width: 100%;
+  border: none;
+  border-radius: 0.7rem;
+}
+.view1 .bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(33, 29, 29, 0.941);
+  border-radius: 0.7rem;
+}
+.view1 .bottom .txtop h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 200;
+  padding: 1.5rem;
+}
+.view1 .bottom .txtop p {
+  padding: 0 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.221);
+}
+.view1 .bottom .txtbottom {
+  display: flex;
+  flex-direction: row;
+  gap: 1.4rem;
+  padding: 1.5rem;
+}
+.view1 .bottom .txtbottom h4 {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.view1 .bottom .txtbottom .arrow {
+  width: 1.3rem;
+  border-radius: 50%;
+  font-weight: 100;
+  text-align: center;
+  border: 0.01rem solid white;
+  background-color: transparent;
+}
+.view1 .bottom > p {
+  text-transform: uppercase;
+  padding: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.view2 {
+  width: 100%;
+  padding: 3rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "clients projects" "happy-clients followers";
+}
+.view2 .clients {
+  grid-area: clients;
+}
+.view2 .projects {
+  grid-area: projects;
+}
+.view2 .happy-clients {
+  grid-area: happy-clients;
+}
+.view2 .followers {
+  grid-area: followers;
+}
+.view2 h3 {
+  text-transform: uppercase;
+  row-gap: 1rem;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.758);
+  font-weight: 200;
+  padding-top: 0.5rem;
+}
+.view2 p {
+  font-size: 3.2rem;
+  padding-top: 0.5rem;
+}
+
+.view3 {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.view3 .top1 {
+  width: 100%;
+}
+.view3 .top1 img {
+  width: 100%;
+  border: none;
+  border-radius: 0.7rem;
+}
+.view3 .bottom1 {
+  width: 100%;
+  background-color: rgba(33, 29, 29, 0.941);
+  border-radius: 0.7rem;
+}
+.view3 .bottom1 h3 {
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  font-weight: 200;
+  color: #fff;
+  padding: 2rem;
+}
+.view3 .bottom1 .bottomtxt {
+  padding: 0 2rem;
+  text-align: start;
+}
+.view3 .bottom1 .bottomtxt p {
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.482);
+}
+.view3 .bottom1 > p {
+  font-size: 0.9rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.view4 {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view4 .top2 {
+  width: 100%;
+}
+.view4 .top2 img {
+  width: 100%;
+  border: none;
+  border-radius: 0.7rem;
+}
+.view4 .bottom2 {
+  width: 100%;
+  background-color: rgba(33, 29, 29, 0.941);
+  border-radius: 0.7rem;
+}
+.view4 .bottom2 h3 {
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  font-weight: 200;
+  color: #fff;
+  padding: 2rem;
+}
+.view4 .bottom2 .bottomtxt1 {
+  width: 100%;
+}
+.view4 .bottom2 .bottomtxt1 p {
+  width: 100%;
+  padding: 0 2rem;
+  text-align: start;
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.482);
+}
+.view4 .bottom2 > p {
+  font-size: 0.9rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.view5 {
+  width: 100%;
+  padding: 1rem;
+}
+.view5 h2 {
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  font-weight: 200;
+  color: #fff;
+  padding: 2rem;
+}
+
+.view6 {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.view6 .tuff {
+  width: 100%;
+  position: relative;
+}
+.view6 .tuff img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 1rem 0;
+  border-radius: 0.7rem;
+}
+.view6 .tuff .social {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 2rem;
+}
+.view6 .tuff .social i {
+  font-size: 1.2rem;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0.7rem;
+  border-radius: 50%;
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.view6 .tuff .content {
+  position: absolute;
+  bottom: 2rem;
+  left: 1rem;
+  right: 1rem;
+  border-radius: 0.6rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: blur(0.8rem);
+          backdrop-filter: blur(0.8rem);
+  color: white;
+}
+.view6 .tuff .content p {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  font-weight: 500;
+}
+.view6 .midle {
+  width: 100%;
+  position: relative;
+}
+.view6 .midle img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 1rem 0;
+  border-radius: 0.7rem;
+}
+.view6 .midle .social {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 2rem;
+}
+.view6 .midle .social i {
+  font-size: 1.2rem;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0.7rem;
+  border-radius: 50%;
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.view6 .midle .content {
+  position: absolute;
+  bottom: 2rem;
+  left: 1rem;
+  right: 1rem;
+  border-radius: 0.6rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: blur(0.8rem);
+          backdrop-filter: blur(0.8rem);
+  color: white;
+}
+.view6 .midle .content p {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  font-weight: 500;
+}
+.view6 .buutum {
+  width: 100%;
+  position: relative;
+}
+.view6 .buutum img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 1rem 0;
+  border-radius: 0.7rem;
+}
+.view6 .buutum .social {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 2rem;
+}
+.view6 .buutum .social i {
+  font-size: 1.2rem;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0.7rem;
+  border-radius: 50%;
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.view6 .buutum .content {
+  position: absolute;
+  bottom: 2rem;
+  left: 1rem;
+  right: 1rem;
+  border-radius: 0.6rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: blur(0.8rem);
+          backdrop-filter: blur(0.8rem);
+  color: white;
+}
+.view6 .buutum .content p {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.view7 {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view7 .top3 {
+  width: 100%;
+}
+.view7 .top3 img {
+  width: 100%;
+  border: none;
+  border-radius: 0.7rem;
+}
+.view7 .bottom3 {
+  width: 100%;
+  background-color: rgba(33, 29, 29, 0.941);
+  border-radius: 0.7rem;
+}
+.view7 .bottom3 h3 {
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  font-weight: 200;
+  color: #fff;
+  padding: 2rem;
+}
+.view7 .bottom3 p {
+  font-size: 0.9rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.view8 {
+  width: 100%;
+  padding: 1rem;
+}
+.view8 .kontent {
+  width: 100%;
+  background-color: rgba(183, 183, 12, 0.973);
+  border-radius: 0.7rem;
+  color: #121212;
+}
+.view8 .kontent p {
+  padding: 2rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.view8 .kontent h3 {
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  font-weight: 200;
+  color: #121212;
+  padding: 0 2rem;
+}
+.view8 .kontent button {
+  margin: 2rem;
+  padding: 0.5rem 1.3rem;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 0.5rem;
+  color: #fff;
+  background-color: #121212;
+}
+
+.view9 {
+  width: 100%;
+  padding: 1rem;
+}
+.view9 .credit {
+  background-color: #121212;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.view9 .credit a {
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 850px) {
+  .view1 {
+    flex-direction: row;
+    align-items: stretch;
+  }
+  .view1 > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .top img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 0.7rem;
+  }
+  .bottom {
+    justify-content: center;
+  }
+  .view2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 4rem;
+  }
+  .view3 {
+    flex-direction: row-reverse;
+    align-items: stretch;
+  }
+  .bottomtxt p {
+    -moz-column-count: 2;
+         column-count: 2;
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+  }
+  .top1, .bottom1 {
+    flex: 1;
+  }
+  .top1 img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .view4 {
+    flex-direction: row;
+    align-items: stretch;
+  }
+  .view4 .bottomtxt1 p {
+    -moz-column-count: 2;
+         column-count: 2;
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+  }
+  .top2, .bottom2 {
+    flex: 1;
+  }
+  .top2 img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .view6 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .view7 {
+    flex-direction: row;
+    align-items: stretch;
+  }
+  .top3, .bottom3 {
+    flex: 1;
+  }
+  .top3 img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .view8 {
+    position: relative;
+  }
+  .view8 .kontent {
+    padding-bottom: 1rem;
+  }
+  .view8 .kontent h3 {
+    font-size: 5rem;
+  }
+  .view8 button {
+    position: absolute;
+    bottom: 1.9rem;
+    right: 21rem;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=style.css.map */
